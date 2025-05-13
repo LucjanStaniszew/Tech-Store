@@ -1,0 +1,44 @@
+Tech Store
+
+Clase CSS
+
+- Crear o copiar archivo html para estilizar
+- Estilizar con lo siguiente:
+-- color de fondo ✅
+-- color de fuente ✅
+-- color de borde ✅
+-- fuente local ✅
+-- fuente de google ✅
+-- tamaño de fuente ✅
+-- lista ordenada y desordenada con diferentes estilos de elementos ✅
+-- usar selectores de tipo ID, Class y etiqueta ✅
+-- explicar unidades de medida:
+--- uso de porcentaje ✅
+--- vh y vw ✅
+--- unidades fijas con px ✅
+--- diferencia entre rem y em ✅
+
+General:
+- Darle color al h1 ✅
+- Estilizar las listas del proyecto con "none" ✅
+- Darle tamaño al logo y redondearlo ✅
+- Darle tamaño a las RRSS y redondearlas ✅
+- Agregar WhatsApp a los htmls y darle tanto tamaño, redondeo y redireccionamiento ❗ Completar esto y lo que resta para la clase de box modeling y flexbox
+
+index:
+- Agregar varias imagenes con redireccionamiento a diferentes secciones de las paginas con ID ✅
+
+tienda:
+- Agregar imagenes y caracteristicas de los articulos de la tienda
+
+galería:
+- Agregar imagenes de los diferentes articulos de la tienda con la intención de ordenarlos luego con grids
+
+quienes somos:
+- Estilizar la imagen y los textos con diferentes propiedades y fuentes
+- Dejar estilizado con fuente Roboto a un font-size apropiado
+
+contacto:
+- Estilizar los inputs con diferentes colores
+- Agregar foto del frente del "negocio"
+- Agregar un iframe de maps con una localización ficticia

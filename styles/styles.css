@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+body{
+    background-color: rgb(170, 169, 169);
+}
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: rgb(75, 74, 74);
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.logo{
+    height: 15vh;
+    width: 15vw;
+    border-radius: 20px;
+}
+
+/* Mobile Header  */
+
+@media (max-width: 450px){
+    header{
+        margin-top: 10px;
+    }
+    .logo{
+        height: 15vh;
+        width: auto;
+    }
+    h1{
+        display: none;
+    }
+    .navegacion{
+        flex-direction: column;
+    }
+    li{
+        padding: 2px;
+    }
+}
+
+.router{
+    height: 40vh;
+    width: auto;
+    border-radius: 25px;
+}
+
+.rrss{
+    height: 8vh;
+    width: auto;
+    margin: 0 10px 0 10px;
+}
+
+.wats{
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+}
+
+.home{
+    height: 75vh;
+}
+
+footer{
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 450px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer section{
+        margin: 20px 0;
+    }
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav article{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mobile Home */
+
+@media (max-width: 450px){
+    .main-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home{
+        height: max-content;
+    }
+}
+
+/* Tienda */
+
+.main-tienda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-tienda section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 80px 20px 80px;
+}
+
+.img-tienda{
+    height: 30vh;
+    width: auto;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.notebooks{
+    display: flex;
+}
+
+.perifericos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.celus{
+    display: flex;
+}
+
+@media (max-width: 450px){
+    .main-tienda{
+        margin-top: 30px;
+    }
+}
+
+/* Quienes Somos */
+
+.main-qs{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-qs section h2{
+    margin-bottom: 50px;
+    justify-self: center;
+    text-decoration: underline;
+}
+
+.somos-nosotros{
+    height: 70vh;
+    border-radius: 25px;
+}
+
+@media (max-width: 450px){
+    .main-qs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-qs section h2{
+        margin-bottom: 20px;
+    }
+    
+    .somos-nosotros{
+        height: 50vh;
+        width: auto;
+    }
+}
+
+/* Contacto */
+
+.main-contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+label{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
+input{
+    height: 5vh;
+    width: 20vw;
+}
+
+textarea{
+    height: 10vh;
+}
+
+.main-contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contact iframe{
+    justify-self: center;
+    align-self: center;
+}
+
+@media (max-width: 450px){
+    .main-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 80vw;
+    }
+    iframe{
+        margin: 20px 0;
+        height: 40vh;
+        width: 80vw;
+    }
+}
+
+/* Nosotros */
+
+.main-qs section p{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Galería */
+
+.gmain{
+    margin: 50px 0 50px 0
+}
+
+.galery{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+    "a51 bangho bangho ip14"
+    "hp hp acer acer"
+    "redmi tmars tmars mtdagger"
+    "moni tnoga thyperx mgenius"
+    ;
+    gap: 30px 0;
+    /* grid-template-areas:
+    "a51 bangho bangho"
+    "a51 hp hp"
+    "acer acer ip14"
+    "thyperx thyperx ip14"
+    "redmi tmars tmars"
+    "redmi tnoga tnoga"
+    "mtdagger moni mgenius"
+    ; */
+    /* justify-content: ; */
+    justify-content: space-evenly;
+}
+
+.gmain .galery img{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.celu{
+    height: 40vh;
+    width: auto;
+}
+.note{
+    width: 40vw;
+    height: 40vh;
+}
+.mouse{
+    height: 40vh;
+    width: 15vw;
+}
+.teclado{
+    height: 40vh;
+    width: 40vw;
+}
+
+.a51{
+    grid-area: a51;
+}
+.ip14{
+    grid-area: ip14;
+}
+.redmi{
+    grid-area: redmi;
+}
+.bangho{
+    grid-area: bangho;
+}
+.hp{
+    grid-area: hp;
+}
+.acer{
+    grid-area: acer;
+}
+.thyperx{
+    grid-area: thyperx;
+    width: 25vw;
+}
+.tmars{
+    grid-area: tmars;
+}
+.tnoga{
+    grid-area: tnoga;
+    width: 25vw;
+}
+.mtdagger{
+    grid-area: mtdagger;
+}
+.moni{
+    grid-area: moni;
+}
+.mgenius{
+    grid-area: mgenius;
+}
+
+/* Mobile */
+
+@media (max-width: 450px){
+    .galery{
+        width: 100vw;
+        grid-template-areas: 
+        "a51"
+        "ip14"
+        "redmi"
+        "bangho"
+        "hp"
+        "acer"
+        "thyperx"
+        "tmars"
+        "tnoga"
+        "mtdagger"
+        "moni"
+        "mgenius"
+        ;
+    }
+    .celu, .mouse{
+        height: 30vh;
+        width: 40vw;
+    }
+    .note, .teclado{
+        height: 30vh;
+        width: 60vw;
+    }
+}

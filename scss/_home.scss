@@ -1,0 +1,25 @@
+.main-nav{
+    @include flex-row;
+    justify-content: center;
+    margin: 10px;
+    article{
+        margin: 20px;
+        @include flex-row;
+        flex-direction: column;
+        .router{
+            height: 40vh;
+            width: auto;
+            border-radius: 25px;
+        }
+    }
+    @include mobile{
+        flex-direction: column;
+    }
+}
+
+.home{
+    height: 75vh;
+    @include mobile{
+        height: max-content;
+    }
+}

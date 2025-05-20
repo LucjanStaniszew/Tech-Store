@@ -1,0 +1,10 @@
+// En este archivo SOLAMENTE importo el resto de los archivos
+// Hay que notar que tengo archivos generales (variables, header, footer) y archivos unicos (home, contacto, etc) Pueden hacer lo mismo o trabajar directamente sobre este archivo. Para una lectura prolija, MI RECOMENDACIÓN es que trabajen en diferentes archivos, pero es opcional.
+@import "variables";
+@import "header";
+@import "footer";
+@import "home";
+@import "contacto";
+@import "quienesSomos";
+@import "galeria";
+@import "tienda";

@@ -1,0 +1,32 @@
+.main-qs{
+    margin: 25px;
+    @include flex-row;
+    justify-content: center;
+    section{
+        h2{
+            margin-bottom: 50px;
+            justify-self: center;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+    }
+    .somos-nosotros{
+        height: 70vh;
+        border-radius: 25px;
+    }
+    @include mobile{
+        flex-direction: column;
+        section{
+            h2{
+                margin-bottom: 20px;
+            }
+        }
+        .somos-nosotros{
+            height: 50vh;
+            width: auto;
+            }
+    }
+}

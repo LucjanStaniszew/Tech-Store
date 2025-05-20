@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+body{
+    background-color: rgb(170, 169, 169);
+}
+
+@mixin mobile{
+    @media (max-width: 425px){
+        @content
+    }
+};
+
+@mixin flex-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin border-tienda{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 80px;
+}

@@ -1,0 +1,36 @@
+header{
+    @include flex-row;
+    height: 15vh;
+    h1{
+        color: rgb(75, 74, 74);
+    }
+    .logo{
+        height: 15vh;
+        width: 15vw;
+        border-radius: 20px;
+    }
+    .navegacion{
+        @include flex-row;
+        li{
+            list-style: none;
+            padding: 10px;
+            font-weight: 700;
+        }
+    }
+    @include mobile{
+        margin-top: 10px;
+        .logo{
+            height: 15vh;
+            width: auto;
+        }
+        h1{
+            display: none;
+        }
+        .navegacion{
+            flex-direction: column;
+            li{
+                padding: 2px;
+            }
+        }
+    }
+}

@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+$colorBlack: black;
 
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
+    color: $colorBlack;
     font-family: Roboto;
 }
 
 body{
     background-color: rgb(170, 169, 169);
 }
+
 
 @mixin mobile{
     @media (max-width: 425px){

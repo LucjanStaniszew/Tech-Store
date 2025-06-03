@@ -42,3 +42,27 @@ contacto:
 - Estilizar los inputs con diferentes colores
 - Agregar foto del frente del "negocio"
 - Agregar un iframe de maps con una localización ficticia
+
+
+
+09- SEO y Servidores:
+Optimización de Motores de Busqueda
+-meta:
+--description: "descripción de mi pagina web..." ✅
+--keywords: "uno, dos tres, cuatro, ..." ✅
+--author: "Luciano [Nicolás(opcional segundo nombre)] Staniszewski [(opcional segundo apellido)]" ✅
+
+-sitemap ✅
+-Robots.txt //Páginas que no se ven - meh ✅
+-SurferSEO //Seo con IA ✅
+
+-----Actividad: asignarle meta keywords, description y author a todos los html ✅
+-----Actividad: Testear con SEO-meta-1-click ✅
+
+-- Break
+
+-Dominios:
+--Ver Nic.ar ✅
+
+-Servidores:
+--Cargar proyecto en Vercel o Netlify ✅
